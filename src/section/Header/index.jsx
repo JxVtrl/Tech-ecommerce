@@ -1,9 +1,12 @@
 import React from "react";
+import { Logo, Nav } from '../../components'
+import { Container } from './styles'
 
 export const Header = () => {
     return (
-        <div>
-            <h1>Marcelo Bracet</h1>
-        </div>
+        <Container>
+            <Logo />
+            <Nav />
+        </Container>
     );
 }

@@ -1,12 +1,9 @@
 import { useState } from 'react'
-import { Header } from '../section'
+import { AppRoutes } from '../routes'
 
 function App() {
-
   return (
-    <div className="App">
-      <Header/>
-    </div>
+    <AppRoutes />
   )
 }
 
